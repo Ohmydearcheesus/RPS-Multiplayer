@@ -1,0 +1,29 @@
+:root {
+  --backup-font: Verdana, Geneva, Tahoma, sans-serif;
+  --my-font: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: lightsalmon;
+  font-family: var(--backup-font);
+  font-family: var(--my-font);
+}
+
+#instructions {
+  color: mistyrose;
+  font-size: 3.5em;
+}
+
+#p1-join,
+#p2-join,
+#score,
+#play-again {
+  background-color: white;
+  color: orangered;
+  font-size: 2.5em;
+  border-radius: 30px;
+}
+
+.invisible {
+  display: none;
+}
